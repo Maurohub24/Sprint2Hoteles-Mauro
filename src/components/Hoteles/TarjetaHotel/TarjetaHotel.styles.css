@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.hotels-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 25rem;
+  height: 37.5rem;
+}
+
+.hotelName {
+  text-align: left;
+}
+
+.hotelDescription {
+  text-align: left;
+  font-family: sans-serif;
+  letter-spacing: 0;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+}
+
+.fa-map-marker-alt {
+  width: 2rem;
+  height: 2rem;
+  background: #356191;
+  color: #ffffff;
+}
+
+.location {
+  display: flex;
+  align-items: left;
+  text-align: left;
+  width: 100%;
+  height: 2rem;
+  margin-top: 10px;
+}
+
+.rooms {
+  display: flex;
+  align-items: left;
+  text-align: left;
+  width: 100%;
+  height: 2rem;
+  margin-top: 10px;
+}
+.fa-bed {
+  width: 2rem;
+  height: 2rem;
+  background: #356191;
+  color: #ffffff;
+}
+
+.reservaButton {
+  width: 100%;
+  height: 2rem;
+  border-style: none;
+  background: #5199e6;
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+.reservaButton:hover {
+  background: linear-gradient(225deg, rgb(73, 73, 143) 0%, #00f0b8 100%);
+  color: #ffffff;
+}
+.icon {
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.price-container {
+  color: white;
+  background-color: #209cee;
+}
+.opacity {
+  opacity: 0.25;
+}

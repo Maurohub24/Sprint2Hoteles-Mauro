@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.filtrosContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 3.25rem;
+  background: #209cee;
+}
+
+.categories {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dates {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.date-from {
+  height: 2.5rem;
+  border: 1px solid #000000;
+  padding: 5px 10px 5px 10px;
+}
+
+.date-to {
+  height: 2.5rem;
+  padding: 5px 10px 5px 10px;
+}
+
+.category {
+  width: 10rem;
+  height: 2.688rem;
+  border: 1px solid #000000;
+  outline: none;
+  padding: 5px 10px 5px 10px;
+}

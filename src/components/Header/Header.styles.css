@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+  background: #00d1b2;
+  height: 18.75rem;
+  padding: 2rem;
+}
+
+.headerTitle {
+  font-size: 4rem;
+  line-height: 4.313rem;
+  color: #ffffff;
+  text-align: left;
+  align-items: flex-start;
+}
+
+.textHeader{
+  text-align: left;
+  font-size: 1rem;
+}
+

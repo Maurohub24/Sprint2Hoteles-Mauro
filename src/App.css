@@ -1,0 +1,29 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.boton-limpiar {
+  background: #8f183e;
+  color: #ffffff;
+  width: 8.2rem;
+  height: 2.2rem;
+  border-style: none;
+  font-size: 0.8rem;
+  margin-left: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.fa-trash {
+  margin-right: 0.5rem;
+  font-size: 0.7rem;
+  padding: 0.5rem;
+}
